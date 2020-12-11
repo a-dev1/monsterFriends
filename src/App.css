@@ -1,38 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Roboto&display=swap');
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading {
+  font-family: 'Monoton', cursive;
+  font-size: 50px;
+  font-weight: 100;
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input {
+  padding: 18px;
+  font-size: 25px;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: none;
+  color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input::placeholder {
+  color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input:focus {
+  box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.1), -2px -2px 10px rgba(255, 255, 255, 0.1);
 }

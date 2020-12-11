@@ -1,0 +1,21 @@
+.class-list {
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 12px 12px 12px; */
+    grid-gap: 20px;
+    justify-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1400px) {
+    .class-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .class-list {
+        grid-template-columns: 1fr;
+    }
+}
