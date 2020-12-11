@@ -7,6 +7,12 @@
     color: #fff;
     width: 250px;
     height: 350px;
+    transition: all 0.2s ease-in-out;
+}
+
+.card-container:hover {
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.2), -8px -8px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
 }
 
 img {

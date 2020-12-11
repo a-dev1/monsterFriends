@@ -11,7 +11,7 @@ class App extends Component {
 
     this.state = {
       monsters: [],
-      searchField: 'le'
+      searchField: ''
     }
 
     // this.handleChange = this.handleChange.bind(this); 
